@@ -98,7 +98,7 @@ class _HomeState extends State<Home> {
                 }
                 if(state is ProductError){
                   return Text(state.msg);                    }
-                return Text('Something Went wrong');
+                return Text('Loading...');
 
               }
 
